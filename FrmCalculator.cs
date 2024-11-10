@@ -74,12 +74,12 @@ namespace CalculatorApplication
             add
             {
                 calculateEvent += value;
-                Console.WriteLine("Added the Delegate.");
+                Console.WriteLine("Delegate Added.");
             }
             remove
             {
                 calculateEvent -= value;
-                Console.WriteLine("Removed the Delegate.");
+                Console.WriteLine("Delegate Removed.");
             }
         }
 
